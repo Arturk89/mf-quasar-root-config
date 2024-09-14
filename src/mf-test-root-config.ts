@@ -12,9 +12,9 @@ registerApplication({
 registerApplication({
   name: "@quasar-app",
   app: () =>
-      System.import<LifeCycles>(
-          "http://localhost:9000/" // add entry file
-      ),
+    System.import<LifeCycles>(
+      "http://localhost:9000/" // add entry file
+    ),
   activeWhen: ["/"],
 });
 
